@@ -1,4 +1,8 @@
 @import 'mainStyles';
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-family: $main-font;
 }
@@ -18,20 +22,55 @@ section {
     background-color: #141B1C;
     .price-card {
         margin-right: 15px;
-        min-width: 380px;
+        width: 380px;
         height: 770px;
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
             overflow: hidden;
             position: relative;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
             height: 130px;
-            text-align: center;
-            color: #FFFFFF;
+            & .conteyner {
+                margin: 30px 139px 36px 140px;
+                width: 100;
+                height: 64px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            & .conteyner2 {
+                width: 163px;
+                height: 64px;
+                margin: 30px 108px 36px 108px;
+                text-align: center;
+                color: #FFFFFF;
+                &>h1 {
+                    font-size: 35px;
+                    line-height: 43px;
+                    margin: 0;
+                }
+                &>span {
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 300;
+                }
+            }
+            & .conteyner3 {
+                width: 176px;
+                height: 64px;
+                margin: 30px 102px 36px 102px;
+                text-align: center;
+                color: #FFFFFF;
+                &>h1 {
+                    font-size: 35px;
+                    line-height: 43px;
+                    margin: 0;
+                }
+                &>span {
+                    font-size: 20px;
+                    line-height: 24px;
+                    font-weight: 300;
+                }
+            }
             & h1 {
                 font-size: 35px;
                 line-height: 43px;
