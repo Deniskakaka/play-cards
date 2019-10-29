@@ -186,13 +186,14 @@ section {
                 line-height: 18px;
                 color: #FFFFFF;
                 & img {
-                    margin-right: 21px;
+                    margin-right: 18px;
                 }
             }
         }
         &__order-btn {
+            padding: 37px 113px 42px 112px;
             & button {
-                margin: 37px 113px 42px 112px;
+                padding: 0;
                 width: 154px;
                 height: 40px;
                 background-color: $blockfirst-color;
