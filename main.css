@@ -75,7 +75,7 @@ section .price-card__price {
   color: #FFFFFF;
 }
 section .price-card__price span {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
 }
 section .price-card__description {
   height: 117px;
