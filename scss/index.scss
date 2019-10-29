@@ -30,13 +30,13 @@ section {
     height: 1000px;
     background-color: black;
     & .price-card {
+        position: relative;
         margin-right: 15px;
         overflow: hidden;
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
             width: 0;
-            position: relative;
             &_conteyner {
                 margin: 30px 139px 36px 140px;
                 width: 100px;
@@ -93,23 +93,6 @@ section {
                     font-weight: 300;
                     color: #FFFFFF;
                 }
-            }
-            & .red {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: absolute;
-                width: 147px;
-                height: 25px;
-                background: #DC3F45;
-                transform: rotate(45deg);
-                right: -30px;
-                top: -4px;
-                font-style: normal;
-                font-weight: bold;
-                font-size: 14px;
-                line-height: 17px;
-                color: #FFFFFF;
             }
         }
         &__price {
@@ -202,6 +185,23 @@ section {
                 border-radius: 20px;
             }
         }
+    }
+    & .red {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        width: 147px;
+        height: 25px;
+        background: #DC3F45;
+        transform: rotate(45deg);
+        right: -30px;
+        top: 23px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
     }
     & .price-card:nth-child(2) {
         & .price-card__price {
