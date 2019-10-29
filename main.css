@@ -10,13 +10,14 @@ body {
 
 section {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   width: 1440px;
   height: 1000px;
   background-color: #141B1C;
 }
 section .price-card {
+  margin-right: 15px;
   min-width: 380px;
   height: 770px;
   background: #334247;
@@ -72,6 +73,9 @@ section .price-card__price {
   line-height: 67px;
   text-align: center;
   color: #FFFFFF;
+}
+section .price-card__price span {
+  padding-bottom: 10px;
 }
 section .price-card__description {
   height: 117px;
@@ -131,6 +135,9 @@ section .price-card:nth-child(2) .price-card__price {
 }
 section .price-card:nth-child(2) .price-card__order-btn button {
   background: #3A6BA5;
+}
+section .price-card:nth-child(3) {
+  margin-right: 0;
 }
 section .price-card:nth-child(3) .price-card__price {
   background: #EC632A;

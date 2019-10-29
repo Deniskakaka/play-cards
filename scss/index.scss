@@ -11,12 +11,13 @@ body {
 
 section {
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: center;
     width: 1440px;
     height: 1000px;
     background-color: #141B1C;
     .price-card {
+        margin-right: 15px;
         min-width: 380px;
         height: 770px;
         background: #334247;
@@ -71,6 +72,9 @@ section {
             line-height: 67px;
             text-align: center;
             color: #FFFFFF;
+            & span {
+                padding-bottom: 10px;
+            }
         }
         &__description {
             height: 117px;
@@ -137,6 +141,7 @@ section {
         }
     }
     & .price-card:nth-child(3) {
+        margin-right: 0;
         & .price-card__price {
             background: $blockthree-color;
         }
