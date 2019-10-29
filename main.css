@@ -2,14 +2,23 @@ html {
   font-family: "Montserrat";
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 section {
   display: flex;
   justify-content: space-around;
-  padding: 129px 135px 101px 135px;
+  align-items: center;
+  width: 1440px;
+  height: 1000px;
+  background-color: #141B1C;
 }
 section .price-card {
   min-width: 380px;
-  min-height: 770px;
+  height: 770px;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
@@ -103,7 +112,6 @@ section .price-card__order-btn {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 119px;
 }
 section .price-card__order-btn button {
   width: 154px;
