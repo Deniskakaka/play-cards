@@ -39,6 +39,7 @@ section .price-card {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 section .price-card__title {
+  font-weight: 300;
   display: inline-block;
   margin: 30px auto 37px auto;
 }
@@ -60,6 +61,7 @@ section .price-card__title > span:last-child {
   text-align: center;
 }
 section .price-card__price {
+  font-weight: 300;
   background-color: #5BB189;
   padding: 18px 110px 19px 110px;
   text-align: center;
@@ -73,6 +75,7 @@ section .price-card__price > span {
   color: #FFFFFF;
 }
 section .price-card__description {
+  font-weight: 300;
   width: 327px;
   text-align: center;
   margin: 39px auto 42px auto;
@@ -84,6 +87,7 @@ section .price-card__description {
   color: #FFFFFF;
 }
 section .price-card__options-list {
+  font-weight: 300;
   list-style-type: none;
   text-align: start;
 }
@@ -102,6 +106,7 @@ section .price-card__options-list li img {
   margin-right: 18px;
 }
 section .price-card__order-btn {
+  font-weight: 300;
   margin: 37px auto 42px auto;
   width: 154px;
 }

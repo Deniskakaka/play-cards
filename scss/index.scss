@@ -38,6 +38,7 @@ section {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
+            font-weight: 300;
             display: inline-block;
             margin: 30px auto 37px auto;
             &>span:first-child {
@@ -59,6 +60,7 @@ section {
             }
         }
         &__price {
+            font-weight: 300;
             background-color: $blockfirst-color;
             padding: 18px 110px 19px 110px;
             text-align: center;
@@ -72,6 +74,7 @@ section {
             }
         }
         &__description {
+            font-weight: 300;
             width: 327px;
             text-align: center;
             margin: 39px auto 42px auto;
@@ -83,6 +86,7 @@ section {
             color: #FFFFFF;
         }
         &__options-list {
+            font-weight: 300;
             list-style-type: none;
             text-align: start;
             & li:nth-child(odd) {
@@ -101,6 +105,7 @@ section {
             }
         }
         &__order-btn {
+            font-weight: 300;
             margin: 37px auto 42px auto;
             width: 154px;
             & button {
