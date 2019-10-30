@@ -3,10 +3,6 @@
     box-sizing: border-box;
 }
 
-html {
-    font-family: $main-font;
-}
-
 body {
     display: flex;
     justify-content: center;
@@ -42,11 +38,11 @@ section {
             margin: 30px auto 37px auto;
             &>span:first-child {
                 display: block;
-                font-style: normal;
                 font-weight: bold;
                 font-size: 35px;
                 line-height: 43px;
                 color: #FFFFFF;
+                font-family: $main-font;
             }
             &>span:last-child {
                 display: block;
@@ -54,6 +50,7 @@ section {
                 line-height: 24px;
                 color: #FFFFFF;
                 font-weight: 300;
+                font-family: $main-font;
             }
         }
         &__price {
@@ -61,36 +58,36 @@ section {
             padding: 18px 110px 19px 110px;
             text-align: center;
             &>span {
-                font-style: normal;
                 font-weight: bold;
                 font-size: 55px;
                 line-height: 67px;
                 text-align: center;
                 color: #FFFFFF;
+                font-family: $main-font;
             }
         }
         &__description {
             width: 327px;
             text-align: center;
             margin: 39px auto 42px auto;
-            font-style: normal;
             font-size: 15px;
             line-height: 18px;
             text-align: center;
             color: #FFFFFF;
             &>span {
                 font-weight: 300;
+                font-family: $main-font;
             }
         }
         &__options-list {
             list-style-type: none;
             text-align: start;
+            font-family: $main-font;
             & li:nth-child(odd) {
                 background: #2A3438;
             }
             & li {
                 padding: 16px 0 16px 22px;
-                font-style: normal;
                 font-size: 15px;
                 line-height: 18px;
                 font-weight: 300;
@@ -111,10 +108,10 @@ section {
                 color: white;
                 border: none;
                 border-radius: 20px;
-                font-style: normal;
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 17px;
+                font-family: $main-font;
             }
         }
     }
@@ -134,6 +131,7 @@ section {
         font-size: 14px;
         line-height: 17px;
         color: #FFFFFF;
+        font-family: $main-font;
     }
     & .price-card:nth-child(2) {
         & .price-card__price {
