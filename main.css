@@ -70,9 +70,10 @@ section .price-card__description {
   width: 328px;
   text-align: center;
   margin: 39px auto 42px auto;
+  font-style: normal;
+  font-weight: 300;
   font-size: 15px;
   line-height: 18px;
-  text-align: center;
 }
 section .price-card__options-list {
   list-style-type: none;
