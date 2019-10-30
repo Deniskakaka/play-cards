@@ -24,18 +24,20 @@ ul {
 
 section {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 1440px;
     height: 1000px;
     background-color: black;
     & .price-card {
+        width: 380px;
         position: relative;
         margin-right: 15px;
         overflow: hidden;
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
+            width: auto;
             margin: 30px auto 36px auto;
             &>span:first-child {
                 display: block;
