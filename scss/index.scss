@@ -92,20 +92,17 @@ section {
         }
         &__order-btn {
             margin: 37px auto 41px auto;
+            text-align: center;
+            padding: 0;
             width: 155px;
-            & button {
-                text-align: center;
-                padding: 0;
-                width: 155px;
-                height: 40px;
-                background-color: $blockfirst-color;
-                border: none;
-                border-radius: 20px;
-                color: #FFFFFF;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 17px;
-            }
+            height: 40px;
+            background-color: $blockfirst-color;
+            border: none;
+            border-radius: 20px;
+            color: #FFFFFF;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
         }
     }
     & .red {
@@ -130,9 +127,7 @@ section {
             background-color: $blocksecond-color;
         }
         & .price-card__order-btn {
-            & button {
-                background-color: $blocksecond-color;
-            }
+            background-color: $blocksecond-color;
         }
     }
     & .price-card:nth-child(3) {
@@ -141,9 +136,7 @@ section {
             background-color: $blockthree-color;
         }
         & .price-card__order-btn {
-            & button {
-                background-color: $blockthree-color;
-            }
+            background-color: $blockthree-color;
         }
     }
     & .price-card:nth-child(1) {
