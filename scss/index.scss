@@ -36,7 +36,6 @@ section {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
-            width: 176px;
             margin: 30px auto 36px auto;
             &>span:first-child {
                 display: block;
@@ -70,17 +69,15 @@ section {
             }
         }
         &__description {
-            padding: 39px 26px 42px 26px;
-            &_conteyner {
-                width: 327px;
-                height: 36px;
-                font-style: normal;
-                font-weight: 300;
-                font-size: 15px;
-                line-height: 18px;
-                text-align: center;
-                color: #FFFFFF;
-            }
+            width: 327px;
+            text-align: center;
+            margin: 39px auto 42px auto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+            color: #FFFFFF;
         }
         &__options-list {
             list-style-type: none;
