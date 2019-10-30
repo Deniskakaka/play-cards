@@ -66,13 +66,10 @@ section {
             }
         }
         &__description {
-            display: inline-block;
-            width: 328px;
+            margin: 39px 26px 42px 26px;
             text-align: center;
-            margin: 39px auto 42px auto;
-            font-size: 15px;
             line-height: 18px;
-            text-align: center;
+            font-size: 15px;
         }
         &__options-list {
             list-style-type: none;
