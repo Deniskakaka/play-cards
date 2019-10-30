@@ -100,16 +100,18 @@ section {
         &__order-btn {
             margin: 37px auto 42px auto;
             width: 154px;
-            padding: 0;
-            width: 154px;
-            height: 40px;
-            background-color: $blockfirst-color;
-            color: white;
-            border: none;
-            border-radius: 20px;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 17px;
+            & button {
+                padding: 0;
+                width: 154px;
+                height: 40px;
+                background-color: $blockfirst-color;
+                color: white;
+                border: none;
+                border-radius: 20px;
+                font-weight: 300;
+                font-size: 14px;
+                line-height: 17px;
+            }
         }
     }
     & .red {

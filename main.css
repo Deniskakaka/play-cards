@@ -101,6 +101,8 @@ section .price-card__options-list li img {
 section .price-card__order-btn {
   margin: 37px auto 42px auto;
   width: 154px;
+}
+section .price-card__order-btn button {
   padding: 0;
   width: 154px;
   height: 40px;
