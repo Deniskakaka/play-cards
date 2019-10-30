@@ -9,6 +9,10 @@ body {
     align-items: center;
 }
 
+html {
+    font-family: $main-font;
+}
+
 h1 {
     margin: 0;
 }
@@ -42,7 +46,6 @@ section {
                 font-size: 35px;
                 line-height: 43px;
                 color: #FFFFFF;
-                font-family: $main-font;
             }
             &>span:last-child {
                 display: block;
@@ -50,7 +53,6 @@ section {
                 line-height: 24px;
                 color: #FFFFFF;
                 font-weight: 300;
-                font-family: $main-font;
             }
         }
         &__price {
@@ -63,7 +65,6 @@ section {
                 line-height: 67px;
                 text-align: center;
                 color: #FFFFFF;
-                font-family: $main-font;
             }
         }
         &__description {
@@ -77,7 +78,7 @@ section {
             color: #FFFFFF;
             &>span {
                 font-weight: 300;
-                font-family: $main-font;
+                opacity: 0.5;
             }
         }
         &__options-list {
@@ -112,7 +113,6 @@ section {
                 font-weight: 300;
                 font-size: 14px;
                 line-height: 17px;
-                font-family: $main-font;
             }
         }
     }
