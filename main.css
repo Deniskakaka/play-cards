@@ -26,8 +26,7 @@ ul {
 
 section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 129px 0 101px 0;
   width: 1440px;
   height: 1000px;
   background-color: black;
@@ -97,13 +96,15 @@ section .price-card__order-btn {
   width: 154px;
 }
 section .price-card__order-btn button {
+  text-align: center;
   padding: 0;
-  width: 154px;
+  width: 155px;
   height: 40px;
   background-color: #5BB189;
   border: none;
   border-radius: 20px;
   color: #FFFFFF;
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
 }
@@ -131,13 +132,16 @@ section .price-card:nth-child(2) .price-card__order-btn button {
   background-color: #3A6BA5;
 }
 section .price-card:nth-child(3) {
-  margin-right: 0;
+  margin-right: auto;
 }
 section .price-card:nth-child(3) .price-card__price {
   background-color: #EC632A;
 }
 section .price-card:nth-child(3) .price-card__order-btn button {
   background-color: #EC632A;
+}
+section .price-card:nth-child(1) {
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

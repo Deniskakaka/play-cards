@@ -27,8 +27,7 @@ ul {
 
 section {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 129px 0 101px 0;
     width: 1440px;
     height: 1000px;
     background-color: black;
@@ -95,8 +94,9 @@ section {
             margin: 37px auto 42px auto;
             width: 154px;
             & button {
+                text-align: center;
                 padding: 0;
-                width: 154px;
+                width: 155px;
                 height: 40px;
                 background-color: $blockfirst-color;
                 border: none;
@@ -136,7 +136,7 @@ section {
         }
     }
     & .price-card:nth-child(3) {
-        margin-right: 0;
+        margin-right: auto;
         & .price-card__price {
             background-color: $blockthree-color;
         }
@@ -145,5 +145,8 @@ section {
                 background-color: $blockthree-color;
             }
         }
+    }
+    & .price-card:nth-child(1) {
+        margin-left: auto;
     }
 }
