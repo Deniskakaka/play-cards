@@ -71,6 +71,7 @@ section .price-card__description {
   width: 327px;
   text-align: center;
   margin: 39px auto 42px auto;
+  padding-right: 2px;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
