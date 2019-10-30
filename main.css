@@ -36,10 +36,12 @@ section .price-card {
   overflow: hidden;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  text-align: center;
 }
 section .price-card__title {
-  width: auto;
+  display: inline-block;
   margin: 30px auto 36px auto;
+  text-align: center;
 }
 section .price-card__title > span:first-child {
   display: block;
@@ -84,6 +86,7 @@ section .price-card__description {
 }
 section .price-card__options-list {
   list-style-type: none;
+  text-align: start;
 }
 section .price-card__options-list li:nth-child(odd) {
   background: #2A3438;
