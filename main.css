@@ -47,7 +47,7 @@ section .price-card__title > span:first-child {
   font-weight: bold;
   font-size: 35px;
   line-height: 43px;
-  color: #FFFFFF;
+  color: #fff;
 }
 section .price-card__title > span:last-child {
   display: block;
