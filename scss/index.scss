@@ -36,62 +36,26 @@ section {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
-            &_conteyner {
-                margin: 30px 139px 36px 140px;
-                width: 100px;
-                height: 64px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            & h1 {
+                margin: 30px auto 0 auto;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 35px;
+                line-height: 43px;
+                color: #FFFFFF;
                 text-align: center;
-                & h1 {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 35px;
-                    line-height: 43px;
-                    color: #FFFFFF;
-                }
-                & span {
-                    font-size: 20px;
-                    line-height: 24px;
-                    font-weight: 300;
-                    color: #FFFFFF;
-                }
             }
-            & .conteyner2 {
-                margin: 30px 108px 36px 108px;
-                width: 163px;
-                height: 64px;
+            & span {
+                margin-bottom: 36px;
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 300;
+                color: #FFFFFF;
                 text-align: center;
-                & h1 {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 35px;
-                    line-height: 43px;
-                    color: #FFFFFF;
-                }
-                & span {
-                    font-size: 20px;
-                    line-height: 24px;
-                    font-weight: 300;
-                    color: #FFFFFF;
-                }
-            }
-            & .conteyner3 {
-                margin: 30px 108px 36px 108px;
-                width: 176px;
-                height: 64px;
-                text-align: center;
-                & h1 {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 35px;
-                    line-height: 43px;
-                    color: #FFFFFF;
-                }
-                & span {
-                    font-size: 20px;
-                    line-height: 24px;
-                    font-weight: 300;
-                    color: #FFFFFF;
-                }
             }
         }
         &__price {
