@@ -10,6 +10,7 @@ body {
 
 html {
   font-family: "Montserrat";
+  color: #FFFFFF;
 }
 
 h1 {
@@ -47,13 +48,11 @@ section .price-card__title > span:first-child {
   font-weight: bold;
   font-size: 35px;
   line-height: 43px;
-  color: #fff;
 }
 section .price-card__title > span:last-child {
   display: block;
   font-size: 20px;
   line-height: 24px;
-  color: #FFFFFF;
   font-weight: 300;
 }
 section .price-card__price {
@@ -66,7 +65,6 @@ section .price-card__price > span {
   font-size: 55px;
   line-height: 67px;
   text-align: center;
-  color: #FFFFFF;
 }
 section .price-card__description {
   width: 328px;
@@ -75,7 +73,6 @@ section .price-card__description {
   font-size: 15px;
   line-height: 18px;
   text-align: center;
-  color: lightgray;
 }
 section .price-card__description > span {
   font-weight: 300;
@@ -107,7 +104,6 @@ section .price-card__order-btn button {
   width: 154px;
   height: 40px;
   background-color: #5BB189;
-  color: white;
   border: none;
   border-radius: 20px;
   font-weight: 300;
@@ -129,7 +125,6 @@ section .red {
   font-weight: bold;
   font-size: 14px;
   line-height: 17px;
-  color: #FFFFFF;
   font-family: "Montserrat";
 }
 section .price-card:nth-child(2) .price-card__price {
