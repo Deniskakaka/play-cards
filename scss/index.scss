@@ -32,7 +32,6 @@ section {
     background-color: black;
     & .price-card {
         text-align: center;
-        width: 380px;
         height: 770px;
         position: relative;
         margin: auto 15px auto 0;
@@ -66,10 +65,10 @@ section {
             }
         }
         &__description {
-            width: 328px;
             display: inline-block;
+            width: 328px;
+            text-align: center;
             margin: 39px auto 42px auto;
-            font-weight: 300;
             font-size: 15px;
             line-height: 18px;
             text-align: center;
