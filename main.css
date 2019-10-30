@@ -9,8 +9,10 @@ body {
 }
 
 html {
-  font-family: "Montserrat";
-  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 h1 {
