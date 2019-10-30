@@ -36,9 +36,10 @@ section {
         background: #334247;
         box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
         &__title {
+            width: 176px;
+            margin: 30px auto 36px auto;
             &>span:first-child {
                 display: block;
-                margin: 30px auto 0 auto;
                 font-style: normal;
                 font-weight: bold;
                 font-size: 35px;
@@ -48,8 +49,6 @@ section {
             }
             &>span:last-child {
                 display: block;
-                width: 100px;
-                margin: 0 auto 36px auto;
                 font-size: 20px;
                 line-height: 24px;
                 font-weight: 300;
@@ -60,50 +59,14 @@ section {
         &__price {
             background-color: $blockfirst-color;
             padding: 18px 110px 19px 110px;
-            &_conteyner {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 160px;
-                height: 67px;
-                &>span {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 55px;
-                    line-height: 67px;
-                    text-align: center;
-                    color: #FFFFFF;
-                }
-            }
-            &_conteyner2 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 160px;
-                height: 67px;
-                &>span {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 55px;
-                    line-height: 67px;
-                    text-align: center;
-                    color: #FFFFFF;
-                }
-            }
-            &_conteyner3 {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 160px;
-                height: 67px;
-                &>span {
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 55px;
-                    line-height: 67px;
-                    text-align: center;
-                    color: #FFFFFF;
-                }
+            text-align: center;
+            &>span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 55px;
+                line-height: 67px;
+                text-align: center;
+                color: #FFFFFF;
             }
         }
         &__description {
