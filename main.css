@@ -172,14 +172,13 @@ section .price-card__options-list li {
 section .price-card__options-list li img {
   margin-right: 18px;
 }
-section .price-card__order-btn {
-  padding: 37px 113px 42px 112px;
-}
 section .price-card__order-btn button {
+  margin: 37px 113px 42px 112px;
   padding: 0;
   width: 154px;
   height: 40px;
   background-color: #5BB189;
+  color: white;
   border: none;
   border-radius: 20px;
 }
