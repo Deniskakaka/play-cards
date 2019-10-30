@@ -30,19 +30,16 @@ section {
   background-color: black;
 }
 section .price-card {
+  text-align: center;
   width: 380px;
   position: relative;
   margin-right: 15px;
   overflow: hidden;
   background: #334247;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  text-align: center;
 }
 section .price-card__title {
-  height: 64px;
-  display: inline-block;
-  height: 130px;
-  margin-top: 30px;
+  margin: 30px auto 36px auto;
 }
 section .price-card__title > span:first-child {
   display: block;
@@ -77,7 +74,7 @@ section .price-card__price > span {
 section .price-card__description {
   width: 327px;
   text-align: center;
-  margin: 39px auto auto auto;
+  margin: 39px auto 42px auto;
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -104,7 +101,7 @@ section .price-card__options-list li img {
   margin-right: 18px;
 }
 section .price-card__order-btn {
-  margin: 37px auto auto auto;
+  margin: 37px auto 42px auto;
   width: 154px;
 }
 section .price-card__order-btn button {
