@@ -68,7 +68,6 @@ section .price-card__price > span {
 }
 section .price-card__description {
   width: 328px;
-  text-align: center;
   margin: 39px auto 42px auto;
   font-style: normal;
   font-weight: 300;
