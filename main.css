@@ -97,8 +97,11 @@ section .price-card__options-list li {
 section .price-card__options-list li img {
   margin-right: 18px;
 }
+section .price-card__order-btn {
+  margin: 37px auto 42px auto;
+  width: 154px;
+}
 section .price-card__order-btn button {
-  margin: 37px 113px 42px 112px;
   padding: 0;
   width: 154px;
   height: 40px;
