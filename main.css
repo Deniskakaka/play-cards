@@ -40,7 +40,7 @@ section .price-card {
 }
 section .price-card__title {
   display: inline-block;
-  margin: 30px auto 36px auto;
+  margin: 30px auto 37px auto;
 }
 section .price-card__title > span:first-child {
   display: block;
