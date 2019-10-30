@@ -45,13 +45,13 @@ section {
                 font-weight: bold;
                 font-size: 35px;
                 line-height: 43px;
-                color: #FFFFFF;
+                color: lightgray;
             }
             &>span:last-child {
                 display: block;
                 font-size: 20px;
                 line-height: 24px;
-                color: #FFFFFF;
+                color: lightgray;
                 font-weight: 300;
             }
         }
@@ -64,7 +64,7 @@ section {
                 font-size: 55px;
                 line-height: 67px;
                 text-align: center;
-                color: #FFFFFF;
+                color: lightgray;
             }
         }
         &__description {
@@ -75,10 +75,9 @@ section {
             font-size: 15px;
             line-height: 18px;
             text-align: center;
-            color: #FFFFFF;
+            color: lightgray;
             &>span {
                 font-weight: 300;
-                opacity: 0.5;
             }
         }
         &__options-list {
@@ -93,7 +92,7 @@ section {
                 font-size: 15px;
                 line-height: 18px;
                 font-weight: 300;
-                color: #FFFFFF;
+                color: lightgray;
                 & img {
                     margin-right: 18px;
                 }
@@ -107,7 +106,7 @@ section {
                 width: 154px;
                 height: 40px;
                 background-color: $blockfirst-color;
-                color: white;
+                color: whitesmoke;
                 border: none;
                 border-radius: 20px;
                 font-weight: 300;
