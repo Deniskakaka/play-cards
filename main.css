@@ -113,6 +113,10 @@ section .price-card__order-btn button {
   color: white;
   border: none;
   border-radius: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
 }
 section .red {
   display: flex;
