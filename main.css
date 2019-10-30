@@ -106,6 +106,7 @@ section .price-card__order-btn button {
   background-color: #5BB189;
   border: none;
   border-radius: 20px;
+  color: #FFFFFF;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
