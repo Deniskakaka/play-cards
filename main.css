@@ -55,7 +55,6 @@ section .price-card__title > span:last-child {
   display: block;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 300;
 }
 section .price-card__price {
   background-color: #5BB189;
@@ -76,9 +75,6 @@ section .price-card__description {
   line-height: 18px;
   text-align: center;
 }
-section .price-card__description > span {
-  font-weight: 300;
-}
 section .price-card__options-list {
   list-style-type: none;
   text-align: start;
@@ -91,7 +87,6 @@ section .price-card__options-list li {
   padding: 16px 0 16px 22px;
   font-size: 15px;
   line-height: 18px;
-  font-weight: 300;
   color: #FFFFFF;
 }
 section .price-card__options-list li img {
@@ -109,7 +104,6 @@ section .price-card__order-btn button {
   border: none;
   border-radius: 20px;
   color: #FFFFFF;
-  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
 }
