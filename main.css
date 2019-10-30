@@ -39,7 +39,6 @@ section .price-card {
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
 }
 section .price-card__title {
-  font-weight: 300;
   display: inline-block;
   margin: 30px auto 37px auto;
 }
@@ -50,18 +49,15 @@ section .price-card__title > span:first-child {
   font-size: 35px;
   line-height: 43px;
   color: #FFFFFF;
-  text-align: center;
 }
 section .price-card__title > span:last-child {
   display: block;
   font-size: 20px;
   line-height: 24px;
-  font-weight: 300;
   color: #FFFFFF;
-  text-align: center;
+  font-weight: 300;
 }
 section .price-card__price {
-  font-weight: 300;
   background-color: #5BB189;
   padding: 18px 110px 19px 110px;
   text-align: center;
@@ -75,19 +71,19 @@ section .price-card__price > span {
   color: #FFFFFF;
 }
 section .price-card__description {
-  font-weight: 300;
   width: 327px;
   text-align: center;
   margin: 39px auto 42px auto;
   font-style: normal;
-  font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   text-align: center;
   color: #FFFFFF;
 }
-section .price-card__options-list {
+section .price-card__description > span {
   font-weight: 300;
+}
+section .price-card__options-list {
   list-style-type: none;
   text-align: start;
 }
@@ -97,16 +93,15 @@ section .price-card__options-list li:nth-child(odd) {
 section .price-card__options-list li {
   padding: 16px 0 16px 22px;
   font-style: normal;
-  font-weight: 300;
   font-size: 15px;
   line-height: 18px;
+  font-weight: 300;
   color: #FFFFFF;
 }
 section .price-card__options-list li img {
   margin-right: 18px;
 }
 section .price-card__order-btn {
-  font-weight: 300;
   margin: 37px auto 42px auto;
   width: 154px;
 }
@@ -119,7 +114,7 @@ section .price-card__order-btn button {
   border: none;
   border-radius: 20px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 14px;
   line-height: 17px;
 }
