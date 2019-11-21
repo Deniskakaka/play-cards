@@ -1,5 +1,5 @@
 # play-cards
-this maket has one size 1440px it is not mobale virsion
+this maket has one size 1440px it is not have mobale virsion
 
 # use technologies:
  <ol>
