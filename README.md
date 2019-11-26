@@ -1,5 +1,5 @@
 # play-cards
-this maket has one size 1440px it is not have mobale virsion
+this layout does not have a mobile version, its resolution is 1440px
 
 # use technologies:
  <ol>
